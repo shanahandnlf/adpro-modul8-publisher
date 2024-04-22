@@ -18,3 +18,8 @@ Penjelasan: Publisher di run da mengirimkan data ke message broker. Subscriber d
 
 ![alt text](image-3.png)
 Penjelasan: Spike terjadi setelah saya melakukan cargo run pada publisher. Spike terjadi karena publisher mengirimkan data ke message broker. RabbitMQ merespon data tersebut dengan menampilkan spike pada grafik message rates. Spike menunjukkan adanya peningkatan jumlah pesan yang diterima oleh RabbitMQ dari publisher.
+
+
+![alt text](image-4.png)
+Penjelasan: Gambar di atas menunjukkan simulasi slow subscriber. Terlihat terdapat message queue yag mencapai angka 20. Hal ini dapat terjadi karena subscriber membutuhkan waktu yang lama untuk menerima pesan sehingga terjadi penumpukan pesan pada message queue. Jadi, publisher dapat mengirim pesan dengan cepat, tetapi subscriber tidak dapat menerima pesan dengan cepat sehingga terjadi penumpukan pesan pada message queue.
+
