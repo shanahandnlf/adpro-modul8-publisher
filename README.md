@@ -15,3 +15,6 @@ URL di atas sama dengan URL yang digunakan pada program subscriber. URL yang sam
 ![alt text](image-2.png)
 ![alt text](image-1.png)
 Penjelasan: Publisher di run da mengirimkan data ke message broker. Subscriber di run kemudian menerima data yang dikirimkan oleh publisher. Data yang dikirim ini sesuai dengan yang telah di-code pada file main.rs publisher.
+
+![alt text](image-3.png)
+Penjelasan: Spike terjadi setelah saya melakukan cargo run pada publisher. Spike terjadi karena publisher mengirimkan data ke message broker. RabbitMQ merespon data tersebut dengan menampilkan spike pada grafik message rates. Spike menunjukkan adanya peningkatan jumlah pesan yang diterima oleh RabbitMQ dari publisher.
