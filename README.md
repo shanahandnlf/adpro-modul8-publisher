@@ -11,3 +11,7 @@ URL di atas sama dengan URL yang digunakan pada program subscriber. URL yang sam
 
 
 ![alt text](image.png)
+
+![alt text](image-2.png)
+![alt text](image-1.png)
+Penjelasan: Publisher di run da mengirimkan data ke message broker. Subscriber di run kemudian menerima data yang dikirimkan oleh publisher. Data yang dikirim ini sesuai dengan yang telah di-code pada file main.rs publisher.
